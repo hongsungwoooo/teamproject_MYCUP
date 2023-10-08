@@ -1,0 +1,358 @@
+<!-- 
+    b: Shop.html,
+    furni-1.0.0:cart.html
+-->
+
+<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Male-Fashion | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/common.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!--    Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__option">
+            <div class="offcanvas__links">
+                <a> <img src="./../../../resources/img/logo.png"></a>
+                <a href="/login">로그인</a>
+                <a href="/join">회원가입</a>
+            </div>
+            
+        </div>
+    
+        <div id="mobile-menu-wrap"></div>
+        
+    </div>
+ <!--   Offcanvas Menu End  -->
+ 
+ <!-- ***** Header Area Start ***** -->
+    <!-- 최상단 회원가입바 -->
+    <header class="header">
+        <!-- <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="header__top__left">
+                            <p> 지금 바로 회원가입을 통해 다양한 개성넘치는 텀블러와 집주변 텀블러 할인 카페를 알아보세요!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                        <div class="header__top__right">
+                            <div class="header__top__links">
+                                <a href="#">회원가입</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- TOP메뉴 시작 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="header__logo">
+                        <a href="/index"><img src="./../../../resources/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="/index">Home</a></li>
+                            <li><a href="/about">About</a> </li>
+                            <li><a href="/shop">Shop</a> </li>
+                            <li><a href="/community/community_main">Community</a>
+                                <ul class="dropdown">
+                                    <li><a href="">주변 할인 정보</a></li>
+                                    <li><a href="">자유게시판</a></li>
+                                    <li><a href="">구매후기</a></li>
+                                    <li><a href="">고객센터</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/myInfo">MyPage</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- 로그인 x -->
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__nav__option_login_x">
+                       <button type="button"><a href="/login">로그인</a></button>
+                       <button type="button"><a href="/join">회원가입</a></button>
+                    </div>
+                </div>
+
+                <!--로그인 ok-->
+                     <!-- 
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__nav__option">
+                            <a>@@님 환영합니다</a>
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                     -->
+                </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- TOP메뉴 끝-->
+  <!-- ***** Header Area End ***** -->
+
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h4>주문/배송조회</h4>
+                        <div class="breadcrumb__links">
+                            <a href="/index">Home</a>
+                            <span>주문/배송조회</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Shop Section Begin -->
+    <section class="shop spad">
+        <div class="untree_co-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="text-black">Total : </span>
+                        <strong class="text-black">67,800원</strong>
+                    </div>  
+                </div>
+
+                <div class="row">
+                    <form class="col-md-12" method="post">
+                        <div class="site-blocks-table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="product-thumbnail">상품사진</th>
+                                        <th class="product-name">상품명</th>
+                                        <th class="product-quantity">수량</th>
+                                        <th class="product-total">가격</th>
+                                    </tr>
+                                </thead>
+                            
+                                <tbody>
+                                    <tr>
+                                        <td class="product-thumbnail">
+                                            <img src="./../../../resources/img/product/SS miir siren mint tumbler 591ml_sizedown.jpg" alt="Image" class="img-fluid">
+                                        </td>
+                                        <td class="product-name">
+                                            <h2 class="h5 text-black">SS 미르 사이렌 민트 텀블러 591ml</h2>
+                                        </td>
+                                        <td>1</td>
+                                        <td>31,800원</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="product-thumbnail">
+                                            <img src="./../../../resources/img/product/SS 바리스타춘식 엘마 텀블러 473ml_sizedown.jpg" alt="Image" class="img-fluid">
+                                        </td>
+                                        <td class="product-name">
+                                            <h2 class="h5 text-black">SS 바리스타춘식 엘마 텀블러 473ml</h2>
+                                        </td>
+                                        <td>1</td>
+                                        <td>36,000원</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td width="25%" class="text-center"><button class="btn btn-dark">환불 요청</button></td>
+                                <td width="25%" class="text-center"><button class="btn btn-dark">교환 요청</button></td>
+                                <td width="25%" class="text-center"><button class="btn btn-dark">구매 확정</button></td>
+                                <td width="25%" class="text-center"><button class="btn btn-dark">배송 조회</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-md-12 mb-5 mb-md-0 mt-3">
+                        <div class="col-md-12">
+                            <h2 class="h3 mb-3 text-black">주문상태</h2>
+                            <div class="p-3 p-lg-5 border bg-white">
+                                <table class="table site-block-order-table">
+                                    <thead>
+                                        <th width="20%">상태</th>
+                                        <th width="80%">설명</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>주문 접수</td>
+                                            <td>입금 전 상태</td>
+                                        </tr>
+                                        <tr>
+                                            <td>입금 확인</td>
+                                            <td>해당 브랜드로 주문서가 전달되어 발송 요청한 상태</td>
+                                        </tr>
+                                        <tr>
+                                            <td>배송 준비중</td>
+                                            <td>출고지에서 상품을 준비중인 상태</td>
+                                        </tr>
+                                        <tr>
+                                            <td>발송 완료</td>
+                                            <td>출고지에서 택배업체로 인계된 상태</td>
+                                        </tr>
+                                        <tr>
+                                            <td>배송 완료</td>
+                                            <td>상품이 배송지에 도착한 상태</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-md-12 mb-5 mb-md-0 mt-3">
+                        <div class="col-md-12">
+                            <h2 class="h3 mb-3 text-black">배송상태</h2>
+                            <div class="p-3 p-lg-5 border bg-white">
+                                <table class="table site-block-order-table">
+                                    <thead>
+                                        <th width="20%">상태</th>
+                                        <th width="40%">설명</th>
+                                        <th width="20%">일시</th>
+                                        <th width="20%">위치</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>이동 중</td>
+                                            <td>집하완료, 물품을 접수하였습니다.</td>
+                                            <td>2023-08-22 17:54:00</td>
+                                            <td>김포</td>
+                                        </tr>
+                                        <tr>
+                                            <td>상품 인수</td>
+                                            <td>이천센터로 출발하였습니다.</td>
+                                            <td>2023-08-23 21:08:00</td>
+                                            <td>부천센터</td>
+                                        </tr>
+                                        <tr>
+                                            <td>배송 출발</td>
+                                            <td>배송출고, 고객님께 배달 준비중입니다.</td>
+                                            <td>2023-08-24 07:45:00</td>
+                                            <td>이천센터</td>
+                                        </tr>
+                                        <tr>
+                                            <td>배송 완료</td>
+                                            <td>배송완료, 고객님께 물품을 전달하였습니다.</td>
+                                            <td>2023-08-24 13:00:00</td>
+                                            <td>용인</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Shop Section End -->
+  <!-- Footer Section Begin -->
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="#"><img src="./../../../resources/img/logo_white.png" alt=""></a>
+                    </div>
+                    <a>We consider the environment and individuality</div>a>
+                    <a href="#"><img src="./../../../resources/img/payment.png" alt=""></a>
+                </div>
+            </div>
+            
+           
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer__copyright__text">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <p>Copyright ©
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>2020
+                        All rights reserved | This template is made with <i class="fa fa-heart-o"
+                        aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    </p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="resources/js/jquery-3.3.1.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/jquery.nice-select.min.js"></script>
+    <script src="resources/js/jquery.nicescroll.min.js"></script>
+    <script src="resources/js/jquery.magnific-popup.min.js"></script>
+    <script src="resources/js/jquery.countdown.min.js"></script>
+    <script src="resources/js/jquery.slicknav.js"></script>
+    <script src="resources/js/mixitup.min.js"></script>
+    <script src="resources/js/owl.carousel.min.js"></script>
+    <script src="resources/js/main.js"></script>
+
+    <script src="resources/js/bootstrap.bundle.min.js"></script>
+    <script src="resources/js/tiny-slider.js"></script>
+    <script src="resources/js/custom.js"></script>
+</body>
+
+</html>

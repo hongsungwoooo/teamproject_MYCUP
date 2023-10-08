@@ -1,0 +1,291 @@
+<!-- 
+    b: Shop.html, 
+    learner-1.0.0: register.html 
+-->
+<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Male-Fashion | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/common.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!--    Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__option">
+            <div class="offcanvas__links">
+                <a> <img src="./../../../resources/img/logo.png"></a>
+                <a href="/login">로그인</a>
+                <a href="/join">회원가입</a>
+            </div>
+            
+        </div>
+    
+        <div id="mobile-menu-wrap"></div>
+        
+    </div>
+ <!--   Offcanvas Menu End  -->
+ 
+ <!-- ***** Header Area Start ***** -->
+    <!-- 최상단 회원가입바 -->
+    <header class="header">
+        <!-- <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-7">
+                        <div class="header__top__left">
+                            <p> 지금 바로 회원가입을 통해 다양한 개성넘치는 텀블러와 집주변 텀블러 할인 카페를 알아보세요!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-5">
+                        <div class="header__top__right">
+                            <div class="header__top__links">
+                                <a href="#">회원가입</a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- TOP메뉴 시작 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="header__logo">
+                        <a href="/index"><img src="./../../../resources/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="/index">Home</a></li>
+                            <li><a href="/about">About</a> </li>
+                            <li><a href="/shop">Shop</a> </li>
+                            <li><a href="/community/community_main">Community</a>
+                                <ul class="dropdown">
+                                    <li><a href="">주변 할인 정보</a></li>
+                                    <li><a href="">자유게시판</a></li>
+                                    <li><a href="">구매후기</a></li>
+                                    <li><a href="">고객센터</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/myInfo">MyPage</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- 로그인 x -->
+
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__nav__option_login_x">
+                       <button type="button"><a href="/login">로그인</a></button>
+                       <button type="button"><a href="/join">회원가입</a></button>
+                    </div>
+                </div>
+
+                <!--로그인 ok-->
+                     <!-- 
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__nav__option">
+                            <a>@@님 환영합니다</a>
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                     -->
+                </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- TOP메뉴 끝-->
+  <!-- ***** Header Area End ***** -->
+
+  
+
+     <!-- Breadcrumb Section Begin -->
+     <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h4>회원가입</h4>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html">Home</a>
+                            <span>회원가입</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Join Section Begin -->
+    <section class="shop spad">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 mx-auto order-1" data-aos="fade-up" data-aos-delay="200">
+                    <form action="#" class="form-box">
+                        <div class="row form-group">
+                            <div class="col-md-9 mb-md-0">
+                                <input type="text" class="form-control" placeholder="ID를 입력하세요.">
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <button type="button" class="btn btn-success">ID 중복 확인</button>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-12">
+                                <input type="password" class="form-control" placeholder="비밀번호를 입력하세요.">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-12">
+                                <input type="password" class="form-control" placeholder="비밀번호를 다시 입력하세요.">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-12">
+                                <input type="text" id="fname" class="form-control" placeholder="생년월일을 입력하세요.">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-12">
+                                <input type="text" id="fname" class="form-control" placeholder="성별을 입력하세요.">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-9">
+                                <input type="text" id="fname" class="form-control" placeholder="이메일을 입력하세요.">
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <button type="button" class="btn btn-success">본인인증발송</button>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-9">
+                                <input type="text" id="fname" class="form-control" placeholder="본인인증 번호를 입력하세요.">
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <button type="button" class="btn btn-success">본인인증확인</button>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-12">
+                                <input type="text" id="fname" class="form-control" placeholder="'_' 없이 휴대전화 번호를 입력하세요.">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-9">
+                                <input type="text" id="fname" class="form-control" placeholder="주소를 입력하세요.">
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <button type="button" class="btn btn-success">우편번호검색</button>
+                            </div>
+                        </div>
+                        <div class="row form-group mt-3">
+                            <div class="col-12 mb-3">
+                                <input type="text" id="fname" class="form-control" placeholder="나머지 주소를 입력하세요.">
+                            </div>
+                        </div>
+                        
+                        <div class="col-12 mb-3 text-center">
+                            <label class="control control--checkbox">
+                                <input type="checkbox" checked="" />
+                                <span class="caption"><a href="#">개인정보 정책 및 MyCup 서비스 이용약관</a>에 동의합니다.</span>
+                                <div class="control__indicator"></div>
+                            </label>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <button type="button" class="btn btn-success">가입하기</button>
+                            <button type="button" class="btn btn-success">취소</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Join Section End -->
+  <!-- Footer Section Begin -->
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="#"><img src="img/logo_white.png" alt=""></a>
+                    </div>
+                    <a>We consider the environment and individuality</div>a>
+                    <a href="#"><img src="img/payment.png" alt=""></a>
+                </div>
+            </div>
+            
+           
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="footer__copyright__text">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <p>Copyright ©
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>2020
+                        All rights reserved | This template is made with <i class="fa fa-heart-o"
+                        aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    </p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+
+    <!-- Js Plugins -->
+    <script src="resources/js/jquery-3.3.1.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/jquery.nice-select.min.js"></script>
+    <script src="resources/js/jquery.nicescroll.min.js"></script>
+    <script src="resources/js/jquery.magnific-popup.min.js"></script>
+    <script src="resources/js/jquery.countdown.min.js"></script>
+    <script src="resources/js/jquery.slicknav.js"></script>
+    <script src="resources/js/mixitup.min.js"></script>
+    <script src="resources/js/owl.carousel.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+
+</html>
